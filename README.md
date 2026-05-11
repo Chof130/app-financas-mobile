@@ -5,41 +5,49 @@ Um aplicativo completo de controle financeiro pessoal desenvolvido com React Nat
 ## 📱 Funcionalidades
 
 ### 🏠 Dashboard
+
 - **Visão geral do saldo**: Exibe o saldo total, receitas e despesas
 - **Cartões de resumo**: Visualização clara dos valores financeiros
 - **Lista de transações**: Histórico completo das movimentações
 - **Cotações em tempo real**: Dólar e Euro atualizados via API
 
 ### ➕ Nova Transação
+
 - **Registro de receitas e despesas**: Interface intuitiva para adicionar transações
 - **Categorização**: Organização por categorias (Alimentação, Transporte, Lazer, etc.)
 - **Validação de dados**: Campos obrigatórios e formatação adequada
 
 ### 📊 Relatórios
+
 - **Análise por período**: Filtros por data para acompanhar evolução financeira
 - **Gráficos visuais**: Representação gráfica dos dados financeiros
 - **Resumos detalhados**: Estatísticas completas das finanças
 
 ### ℹ️ Sobre
+
 - **Informações do app**: Versão, descrição e tecnologias utilizadas
 - **Interface limpa**: Design moderno e responsivo
 
 ## 🛠️ Tecnologias Utilizadas
 
 ### Frontend
+
 - **React Native 0.81.5**: Framework principal para desenvolvimento mobile
 - **Expo ~54.0.33**: Plataforma para desenvolvimento e build de apps React Native
 - **React Navigation**: Navegação entre telas com abas e pilhas
 - **React Native Paper**: Componentes UI modernos e acessíveis
 
 ### Banco de Dados
+
 - **Expo SQLite ~16.0.10**: Banco de dados local SQLite integrado ao Expo
 - **AsyncStorage**: Armazenamento persistente para configurações do app
 
 ### APIs Externas
+
 - **API de Cotações**: Integração com serviço de cotações para obter valores atualizados do dólar e euro
 
 ### Desenvolvimento
+
 - **JavaScript (ES6+)**: Linguagem de programação
 - **React Hooks**: Gerenciamento de estado e efeitos colaterais
 - **Context API**: Gerenciamento global de estado da aplicação
@@ -82,6 +90,7 @@ minhas-financas/
 ## 🚀 Como Executar
 
 ### Pré-requisitos
+
 - Node.js instalado
 - Expo CLI instalado globalmente: `npm install -g @expo/cli`
 - Dispositivo físico ou emulador/simulador
@@ -89,17 +98,20 @@ minhas-financas/
 ### Instalação
 
 1. **Clone o repositório:**
+
    ```bash
    git clone https://github.com/Chof130/app-financas-mobile.git
    cd minhas-financas-api-conversor
    ```
 
 2. **Instale as dependências:**
+
    ```bash
    npm install
    ```
 
 3. **Inicie o servidor de desenvolvimento:**
+
    ```bash
    npm start
    # ou
@@ -116,6 +128,7 @@ minhas-financas/
 O aplicativo utiliza SQLite local para armazenamento persistente dos dados:
 
 ### Tabela de Transações
+
 ```sql
 CREATE TABLE transacoes (
   id        TEXT PRIMARY KEY,
@@ -128,6 +141,7 @@ CREATE TABLE transacoes (
 ```
 
 ### Operações Disponíveis
+
 - ✅ **Inserir transação**: Adicionar nova receita/despesa
 - ✅ **Buscar todas**: Listar histórico completo
 - ✅ **Excluir transação**: Remover item específico
@@ -138,6 +152,7 @@ CREATE TABLE transacoes (
 ## 🎨 Design System
 
 ### Cores
+
 - **Fundo**: `#f8f9fa`
 - **Texto principal**: `#2c3e50`
 - **Texto secundário**: `#95a5a6`
@@ -146,6 +161,7 @@ CREATE TABLE transacoes (
 - **Accent**: Azul (`#3498db`)
 
 ### Tipografia
+
 - **Fonte**: Sistema padrão
 - **Tamanhos**: 13px a 26px conforme hierarquia
 - **Espaçamentos**: Sistema consistente (4px a 24px)
@@ -182,12 +198,3 @@ npm run web        # Executa na web
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
-## 👨‍💻 Autor
-
-**Desenvolvido por**: [Seu Nome]
-
----
-
-**⭐ Dê uma estrela se este projeto te ajudou!**
-
-*Última atualização: Outubro 2024*
