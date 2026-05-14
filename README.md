@@ -186,6 +186,7 @@ npm run web        # Executa na web
 - [ ] **Autenticação**: Login e múltiplos usuários
 - [ ] **Moedas múltiplas**: Suporte a diferentes moedas
 
+<<<<<<< HEAD
 ## 🤝 Contribuição
 
 1. Fork o projeto
@@ -198,3 +199,5 @@ npm run web        # Executa na web
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
+=======
+>>>>>>> 8521b7dc6743486d5ebaba500215c3c87883df7d
